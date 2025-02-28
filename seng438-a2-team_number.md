@@ -12,7 +12,7 @@
 # 1 Introduction
 
 
-This lab aims on teaching the basics of unit testing. The framework we use is JUnit. Our system needs to be tested using unit testing as it is important for reliability. We test the system in a package called org.jfree.data using JFreeChart framework. It contains multiple classes, however we focus on testing the two classes: Range and DataUtilities. 
+This lab aims on teaching the basics of unit testing. The framework we use is JUnit. Our system needs to be tested using unit testing as it is important for reliability. We test the system in a package called org.jfree.data using JFreeChart framework. It contains multiple classes, however we focus on testing the two classes: Range and DataUtilities. The class DataUtilities also uses mock  objects through JMock. This lab provides us a an opportunity to apply our theoretical knowledge of the unit testing. In this lab, we use resources like API specifications provided in the lab folder, javadoc documentations, and lecture material in order to get more familiar with the concepts of unit testing. 
 
 
 # 2 Detailed description of unit test strategy
