@@ -4,8 +4,8 @@
 
 | Group \#:      |     |
 | -------------- | --- |
-| Student Names: |     |
-| Rakshita Suri  |     |
+| Student Names: |Rakshita Suri      |
+|                |Mohit Kaila     |
 |                |     |
 |                |     |
 
