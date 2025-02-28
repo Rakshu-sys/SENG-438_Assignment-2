@@ -27,13 +27,13 @@ After deciding which sets of the methods to test, we will then choose the best b
 
 # 3 Test cases developed
 
-Test Method: testCreateRangeWithValidValues()
+** 1.** **Test Method:** testCreateRangeWithValidValues()
 
-Test Class: DataUtilitiesTest
+**Test Class:** DataUtilitiesTest
 
-Method Tested: DataUtilities.createRange(double min, double max)
+**Method Tested:** DataUtilities.createRange(double min, double max)
 
-Partition Covered: This test case checks whether the Range is valid, that is, within the valid range of inputs. Therefore, the range needs to be between valid min and max values. 
+**Partition Covered:** This test case checks whether the Range is valid, that is, within the valid range of inputs. Therefore, the range needs to be between valid min and max values. 
 
 
 // write down the name of the test methods and classes. Organize the based on
