@@ -27,7 +27,7 @@ After deciding which sets of the methods to test, we will then choose the best b
 
 # 3 Test cases developed
 
-** 1.** **Test Method:** testCreateRangeWithValidValues()
+**1. **Test Method:**** testCreateRangeWithValidValues()
 
 **Test Class:** DataUtilitiesTest
 
