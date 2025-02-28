@@ -17,8 +17,8 @@ Text…
 
 First, we will discuss the Java documentation in order to have a understanding of how the DataUtilities and Range classes work. After mastering the basics of their use, we will then outline the 10 test cases and start coding. 
 
-For DataUtilities, we will use 5 out of its 9 methods as benchmark test cases. We can always add more unit tests if we think the methods being tested require it. 
-For Range, we will explore 5 out of its 23 methods to test according to the same guideline and if there is a need, to add more cases for testing. 
+For DataUtilities, we will use all of its  methods as benchmark test cases. We can always add more unit tests if we think the methods being tested require it. 
+For Range, we will explore 5 out of its 15  methods to test according to the same guideline and if there is a need, to add more cases for testing. 
 
 After deciding which sets of the methods to test, we will then choose the best black-box testing methods such as equivalence classes and boundary testing that we will use in order to have a complete and reliable test cases.
 
