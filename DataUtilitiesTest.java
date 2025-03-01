@@ -30,6 +30,14 @@ public class DataUtilitiesTest {
         mockKeyedValues = context.mock(KeyedValues.class);
     }
 
+    @After
+    public void cleanup() {
+        // Resetting references after each test.
+        context = null;
+        mockValues = null;
+        mockKeyedValues = null;
+    }
+
     /**
      * Tests summing a column in an empty table, ensuring result is zero.
      */
@@ -190,11 +198,3 @@ public class DataUtilitiesTest {
         assertNotNull("Cumulative percentages should not be null", result);
     }
 }
-
-@After
-    public void cleanup() {
-        // Resetting references after each test.
-        context = null;
-        mockValues = null;
-        mockKeyedValues = null;
-    }
