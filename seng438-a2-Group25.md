@@ -147,7 +147,13 @@ you have explained in the test strategy section //above
 
 # 4 How the team work/effort was divided and managed
 
-The assignment was carried out in a way that all of us Mohit, Rakshita, Shalin, and Okibe took our tasks and smoothly finished the assignment. Mohit and Rakshita dealt with writing and testing the DataUtilities class, while Shalin and Okibe were responsible for the Range class. At the initial stage, we read through the JFreeChart framework and studied the Javadoc specifications to find out what should be analyzed. Before development, we planned test cases using techniques like equivalence partitioning and boundary value analysis to ensure that all the important test cases are covered. After we had made the tests, we checked on each other's work, run the tests, and cleared off the issues. We had periodic team meetings to check on performance, assist each other, and verify that everything was on track. To facilitate collaboration and avoid possible issues with our code, we used version control to manage our work.
+The assignment was carried out in a way that all of us—Mohit, Rakshita, Shalin, and Okibe—took our tasks and smoothly finished the assignment through effective collaboration. Mohit and Rakshita focused on writing and testing the DataUtilities class, ensuring that all methods met the expected functionality and adhered to the framework specifications. Meanwhile, Shalin and Okibe were responsible for implementing and verifying the Range class, carefully testing its behavior under different scenarios.
+
+At the initial stage, we thoroughly read through the JFreeChart framework documentation and studied the Javadoc specifications to gain a clear understanding of what needed to be analyzed and implemented. Before jumping into development, we devised a structured approach to testing by planning test cases using techniques like equivalence partitioning and boundary value analysis to ensure that all critical scenarios were covered. This helped us identify edge cases and avoid potential errors in implementation.
+
+Once we developed the test cases, we engaged in peer review, checking each other's work, running the tests, and debugging issues to improve the overall quality of our code. Regular team meetings were held to discuss progress, address challenges, and support one another, making sure we stayed aligned with the project goals. To further streamline our workflow and maintain consistency, we used version control, which helped us track changes, manage code conflicts, and ensure a smooth integration of our contributions.
+
+Overall, our structured approach, combined with teamwork and effective planning, allowed us to complete the assignment successfully while gaining valuable insights into software testing and collaborative development.
 
 
 # 5 Difficulties encountered, challenges overcome, and lessons learned
