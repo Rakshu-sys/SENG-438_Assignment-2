@@ -139,11 +139,60 @@ After deciding which sets of the methods to test, we will then choose the best b
 
 # DataUtilitiesTest Class - Test Case Documentation
 
+#### **calculateColumnTotal() Method**  
+**testEmptyTableColumnSum**  
+- **Description:** Tests summing a column in an empty table to ensure the result is zero.  
+- **Expected Outcome:** 0.0.  
+- **Testing Type:** Boundary Testing.  
 
+**testSingleRowColumnSum**  
+- **Description:** Tests summing a single-column table with one row to ensure correctness.  
+- **Expected Outcome:** The single value in the column is returned.  
+- **Testing Type:** Equivalence Testing.  
 
-// write down the name of the test methods and classes. Organize the based on
-the source code method // they test. identify which tests cover which partitions
-you have explained in the test strategy section //above
+#### **calculateRowTotal() Method**  
+**testEmptyTableRowSum**  
+- **Description:** Tests summing a row in an empty table to ensure the result is zero.  
+- **Expected Outcome:** 0.0.  
+- **Testing Type:** Boundary Testing.  
+
+**testMixedValuesRowSum**  
+- **Description:** Tests summing a row containing both positive and negative values.  
+- **Expected Outcome:** The correct sum of all values in the row.  
+- **Testing Type:** Equivalence Testing.  
+
+#### **createNumberArray() Method**  
+**testConvertPositiveArrayToNumbers**  
+- **Description:** Tests converting an array of positive values into a Number array.  
+- **Expected Outcome:** The values are correctly converted into a Number array.  
+- **Testing Type:** Equivalence Testing.  
+
+**testConvertNegativeArrayToNumbers**  
+- **Description:** Tests converting an array of negative values into a Number array.  
+- **Expected Outcome:** The values are correctly converted into a Number array.  
+- **Testing Type:** Equivalence Testing.  
+
+**testConvertNullArrayToNumbers**  
+- **Description:** Tests handling of null input when converting a double array to a Number array.  
+- **Expected Outcome:** IllegalArgumentException is thrown.  
+- **Testing Type:** Exception Testing.  
+
+#### **createNumberArray2D() Method**  
+**testConvert2DArrayToNumbers**  
+- **Description:** Tests converting a 2D array of doubles into a 2D Number array.  
+- **Expected Outcome:** The values are correctly converted into a 2D Number array.  
+- **Testing Type:** Equivalence Testing.  
+
+**testConvertNull2DArrayToNumbers**  
+- **Description:** Tests handling of null input when converting a 2D double array.  
+- **Expected Outcome:** IllegalArgumentException is thrown.  
+- **Testing Type:** Exception Testing.  
+
+#### **getCumulativePercentages() Method**  
+**testCumulativePercentageCalculation**  
+- **Description:** Tests calculation of cumulative percentages for a KeyedValues object.  
+- **Expected Outcome:** A valid KeyedValues object with cumulative percentages is returned.  
+- **Testing Type:** Equivalence Testing.  
 
 # 4 How the team work/effort was divided and managed
 
