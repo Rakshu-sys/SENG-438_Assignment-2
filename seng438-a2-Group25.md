@@ -168,4 +168,8 @@ Through collaboration and persistence, we tackled these challenges, ultimately e
 
 # 6 Comments/feedback on the lab itself
 
-This lab serves as a really good opportunity to enhance our knowledge. The lab instructions are self-explanatory and easy to follow through. Overall, the lab went well after the team members got familiar with unit testing. The example tests were quite helpful as well. Initially, the setup in Eclipse and getting familiar with it took some time. However, once everyone got used to it, it became easier to perform unit tests. 
+This lab was a great opportunity to deepen our understanding of unit testing and improve our ability to write and execute test cases effectively. The lab instructions were clear and well-structured, making it easy to follow along and understand what needed to be done. Having example tests as a reference was especially helpful, as they provided a solid starting point and gave us insight into how to structure our own test cases.
+
+At the beginning, setting up the environment in Eclipse took some time, especially for those who were less familiar with the IDE. Getting used to JUnit and understanding how to properly run and analyze tests required some trial and error. However, as we worked through the tasks and helped each other with any setup issues, we gradually became more comfortable with the process.
+
+Once the initial hurdles were out of the way, running and refining our unit tests became much more manageable. The lab not only strengthened our understanding of test-driven development but also reinforced the importance of writing comprehensive test cases that cover different scenarios. Overall, it was a valuable learning experience that improved both our technical skills and our ability to collaborate effectively as a team.
