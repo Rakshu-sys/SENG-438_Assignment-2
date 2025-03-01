@@ -196,7 +196,7 @@ After deciding which sets of the methods to test, we will then choose the best b
 
 # 4 How the team work/effort was divided and managed
 
-The assignment was carried out in a way that all of us—Mohit, Rakshita, Shalin, and Okibe—took our tasks and smoothly finished the assignment through effective collaboration. Mohit and Rakshita focused on writing and testing the DataUtilities class, ensuring that all methods met the expected functionality and adhered to the framework specifications. Meanwhile, Shalin and Okibe were responsible for implementing and verifying the Range class, carefully testing its behavior under different scenarios.
+The assignment was carried out in a way that all of us Mohit, Rakshita, Shalin, and Okibe took our tasks and smoothly finished the assignment through effective collaboration. Mohit and Rakshita focused on writing and testing the DataUtilities class, ensuring that all methods met the expected functionality and adhered to the framework specifications. Meanwhile, Shalin and Okibe were responsible for implementing and verifying the Range class, carefully testing its behavior under different scenarios.
 
 At the initial stage, we thoroughly read through the JFreeChart framework documentation and studied the Javadoc specifications to gain a clear understanding of what needed to be analyzed and implemented. Before jumping into development, we devised a structured approach to testing by planning test cases using techniques like equivalence partitioning and boundary value analysis to ensure that all critical scenarios were covered. This helped us identify edge cases and avoid potential errors in implementation.
 
