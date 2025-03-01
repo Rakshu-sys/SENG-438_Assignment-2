@@ -137,6 +137,10 @@ After deciding which sets of the methods to test, we will then choose the best b
 **Exception Testing:** Used for tests that ensure the correct exceptions are thrown when expected.
 
 
+# DataUtilitiesTest Class - Test Case Documentation
+
+
+
 // write down the name of the test methods and classes. Organize the based on
 the source code method // they test. identify which tests cover which partitions
 you have explained in the test strategy section //above
