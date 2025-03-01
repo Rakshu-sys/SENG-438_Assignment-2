@@ -147,11 +147,12 @@ you have explained in the test strategy section //above
 
 # 4 How the team work/effort was divided and managed
 
-Text…
+The assignment was carried out in a way that all of us Mohit, Rakshita, Shalin, and Okibe took our tasks and smoothly finished the assignment. Mohit and Rakshita dealt with writing and testing the DataUtilities class, while Shalin and Okibe were responsible for the Range class. At the initial stage, we read through the JFreeChart framework and studied the Javadoc specifications to find out what should be analyzed. Before development, we planned test cases using techniques like equivalence partitioning and boundary value analysis to ensure that all the important test cases are covered. After we had made the tests, we checked on each other's work, run the tests, and cleared off the issues. We had periodic team meetings to check on performance, assist each other, and verify that everything was on track. To facilitate collaboration and avoid possible issues with our code, we used version control to manage our work.
+
 
 # 5 Difficulties encountered, challenges overcome, and lessons learned
 
-Text…
+One of the greatest difficulties was the correct interpretation of the Javadoc specs, some of our tests failed when we first used them, yet, after reimplementation and group discussion, we got them working. The other difficult part was the employment of mock objects in DataUtilities, but Mohit and Rakshita sought information and managed to complete this part successfully. In general, the assignment made us be better in testing and teamwork activities. Hence, we learned that the communication of the project should be clear and the test design should be structured.
 
 # 6 Comments/feedback on the lab itself
 
