@@ -77,7 +77,7 @@ After deciding which sets of the methods to test, we will then choose the best b
 - **Testing Type:** Equivalence Testing.
 
   
-## expand() Mrthod
+## expand() Method
 ### testExpandRange
 - **Description:** Tests if a range is correctly expanded by a given margin.
 - **Expected Outcome:** The range is expanded correctly on both sides.
