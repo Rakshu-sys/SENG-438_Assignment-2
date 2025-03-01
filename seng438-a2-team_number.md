@@ -152,7 +152,7 @@ The assignment was carried out in a way that all of us Mohit, Rakshita, Shalin, 
 
 # 5 Difficulties encountered, challenges overcome, and lessons learned
 
-One of the greatest difficulties was the correct interpretation of the Javadoc specs, some of our tests failed when we first used them, yet, after reimplementation and group discussion, we got them working. The other difficult part was the employment of mock objects in DataUtilities, but Mohit and Rakshita sought information and managed to complete this part successfully. In general, the assignment made us be better in testing and teamwork activities. Hence, we learned that the communication of the project should be clear and the test design should be structured. Another key difficulty was to make sure that our tests covered edge cases. Through collaboration, we were able to solve the difficulties and improve our understanding of JUnit testing. 
+One of the greatest difficulties was the correct interpretation of the Javadoc specs, some of our tests failed when we first used them, yet, after reimplementation and group discussion, we got them working. The other difficult part was the employment of mock objects in DataUtilities, but Mohit and Rakshita sought information and managed to complete this part successfully. In general, the assignment made us better in testing and teamwork activities. Hence, we learned that the communication of the project should be clear and the test design should be structured. Another key difficulty was to make sure that our tests covered edge cases. Through collaboration, we were able to solve the difficulties and improve our understanding of JUnit testing. 
 
 # 6 Comments/feedback on the lab itself
 
