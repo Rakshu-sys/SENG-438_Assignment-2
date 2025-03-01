@@ -158,7 +158,13 @@ Overall, our structured approach, combined with teamwork and effective planning,
 
 # 5 Difficulties encountered, challenges overcome, and lessons learned
 
-One of the greatest difficulties was the correct interpretation of the Javadoc specs, some of our tests failed when we first used them, yet, after reimplementation and group discussion, we got them working. The other difficult part was the employment of mock objects in DataUtilities, but Mohit and Rakshita sought information and managed to complete this part successfully. In general, the assignment made us better in testing and teamwork activities. Hence, we learned that the communication of the project should be clear and the test design should be structured. Another key difficulty was to make sure that our tests covered edge cases. Through collaboration, we were able to solve the difficulties and improve our understanding of JUnit testing. 
+One of the greatest difficulties we encountered was the correct interpretation of the Javadoc specifications. Some of our initial test cases failed when we first implemented them, as we misunderstood certain method behaviors and expected outputs. However, after reimplementing the tests and engaging in group discussions, we were able to refine our approach and get them working correctly. This iterative process reinforced the importance of carefully analyzing documentation and collaborating to resolve misunderstandings.
+
+Another significant challenge was the employment of mock objects in DataUtilities. Since mocking was a new concept for some of us, integrating it correctly proved to be tricky. However, Mohit and Rakshita took the initiative to research mock object usage and successfully implemented them, ensuring the tests properly isolated dependencies. This process highlighted the value of self-learning and peer guidance in overcoming technical difficulties.
+
+Additionally, ensuring our test cases adequately covered edge cases was another key difficulty. Initially, we realized that some of our test scenarios only handled common cases, potentially overlooking boundary conditions that could reveal hidden bugs. To address this, we carefully reviewed our test plans and expanded coverage through techniques like equivalence partitioning and boundary value analysis.
+
+Through collaboration and persistence, we tackled these challenges, ultimately enhancing our understanding of JUnit testing and improving our ability to design well-structured test cases. The assignment reinforced the importance of clear communication within a project and the necessity of a structured, methodical approach to testing. Overall, this experience helped us develop stronger problem-solving skills and a deeper appreciation for effective teamwork in software development.
 
 # 6 Comments/feedback on the lab itself
 
