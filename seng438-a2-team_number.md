@@ -26,6 +26,115 @@ After deciding which sets of the methods to test, we will then choose the best b
 
 
 # 3 Test cases developed
+# RangeTest Class - Test Case Documentation
+
+## contains() Method
+### testContainsWithinRange
+- **Description:** Tests if the `contains()` method correctly identifies a value within the range.
+- **Expected Outcome:** True.
+- **Testing Type:** Equivalence Testing.
+
+### testContainsAtLowerBound
+- **Description:** Tests if the `contains()` method correctly identifies the lower bound as within range.
+- **Expected Outcome:** True.
+- **Testing Type:** Boundary Testing.
+
+### testContainsAtUpperBound
+- **Description:** Tests if the contains() method correctly identifies the upper bound as within range.
+- **Expected Outcome:** True.
+- **Testing Type:** Boundary Testing.
+
+### testContainsBelowRange
+- **Description:** Tests if the contains() method correctly identifies a value below the range as out of range.
+- **Expected Outcome:** False.
+- **Testing Type:** Equivalence Testing.
+
+### testContainsAboveRange
+- **Description:** Tests if the contains() method correctly identifies a value above the range as out of range.
+- **Expected Outcome:** False.
+- **Testing Type:** Equivalence Testing.
+
+## combine() Method
+### testCombineTwoValidRanges
+- **Description:** Tests combining two non-overlapping valid ranges.
+- **Expected Outcome:** A new range spanning from the lower bound of the first range to the upper bound of the second range.
+- **Testing Type:** Equivalence Testing.
+
+### testCombineOverlappingRanges
+- Description: Tests combining two overlapping ranges.
+- Expected Outcome: A new range that merges the two ranges correctly.
+- Testing Type: Boundary Testing.
+
+### testCombineWithNullRange
+- **Description:** Tests combining a valid range with a null range.
+- **Expected Outcome:** The non-null range is returned.
+- **Testing Type:** Equivalence Testing.
+
+
+### testCombineBothNull
+- **Description**: Tests combining two null ranges.
+- **Expected Outcome:** Null should be returned.
+- **Testing Type:** Equivalence Testing.
+
+  
+## expand() Mrthod
+### testExpandRange
+- **Description:** Tests if a range is correctly expanded by a given margin.
+- **Expected Outcome:** The range is expanded correctly on both sides.
+- **Testing Type:** Boundary Testing.
+
+### testExpandWithZeroMargins
+- **Description:** Tests expanding a range with zero margins.
+- **Expected Outcome:** The range remains unchanged.
+- **Testing Type:** Equivalence Testing.
+
+### testExpandNullRange
+- **Description:** Tests expanding a null range.
+- **Expected Outcome:** IllegalArgumentException is thrown.
+- **Testing Type:** Exception Testing.
+
+## constrain() Method
+### testConstrainWithinRange
+- **Description:** Tests constraining a value within the range.
+- **Expected Outcome:** The same value is returned.
+- **Testing Type:** Equivalence Testing.
+
+### testConstrainAtLowerBound
+- **Description:** Tests constraining a value at the lower bound.
+- **Expected Outcome:** The lower bound is returned.
+- **Testing Type:** Boundary Testing.
+
+### testConstrainAtUpperBound
+- **Description:** Tests constraining a value at the upper bound.
+- **Expected Outcome:** The upper bound is returned.
+- **Testing Type:** Boundary Testing.
+
+### testConstrainBelowRange
+- **Description:** Tests constraining a value below the range.
+- **Expected Outcome:** The lower bound is returned.
+- **Testing Type:** Equivalence Testing.
+
+### testConstrainAboveRange
+-** Description:** Tests constraining a value above the range.
+- **Expected Outcome:** The upper bound is returned.
+- **Testing Type:** Equivalence Testing.
+
+## getLowerBound() Method
+### testGetLowerBound
+- **Description:** Tests if `getLowerBound()` correctly returns the lower bound.
+- **Expected Outcome:** The correct lower bound is returned.
+- **Testing Type:** Equivalence Testing.
+
+### testGetLowerBoundWithNegativeRange
+- **Description:** Tests if `getLowerBound()` correctly returns the lower bound for a negative range.
+- **Expected Outcome:** The correct lower bound is returned.
+- **Testing Type:** Equivalence Testing.
+
+**Boundary Testing:** Used for tests dealing with edge values (e.g., bounds of a range, expansion, constraints).
+
+**Equivalence Testing:** Used for tests verifying normal operations (e.g., checking values inside, outside, or at the edges of the range).
+
+**Exception Testing:** Used for tests that ensure the correct exceptions are thrown when expected.
 
 
 // write down the name of the test methods and classes. Organize the based on
